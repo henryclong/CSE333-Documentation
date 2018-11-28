@@ -1,0 +1,127 @@
+.body{
+    font-family: 'Bitter', serif;
+    color: #800000;
+    margin: 0;
+    display: grid;
+    background-color: #D3D3D3;
+    grid-template-columns: 0px auto 0px;
+    grid-template-rows: 150px auto auto 50px;
+}
+h1{
+    padding-left: 0px;
+    font-size: 64px;
+}
+h2{
+    padding-left: 20px;
+}
+p{
+    margin-left: 40px;
+}
+.site_header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+}
+#site_logo{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    height: 100%;
+    width: 100%;
+}
+.nav_menu{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.button_nav{
+    display: block;
+    text-decoration: none;
+    border-radius: 0px;
+    background-color: #800000;
+    color: #FFFFFF;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*filter: drop-shadow(0px 0px 5px #666666);*/
+}
+.button_nav:hover{
+    background-color: #FFFFFF;
+    color: #800000;
+}
+#b_n_1{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+#b_n_2{
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+#b_n_3{
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+.site_body{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.splash{
+    margin:0;
+    width: 100%;
+    height: auto;
+}
+.site_card{
+    position: block;
+    min-height: 65vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.welcome_splash{
+}
+.video_player{
+}
+.site_footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #800000;
+}
+.map{
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+@media only screen and (min-width: 950px){
+    .body{
+        grid-template-columns: 150px auto 150px;
+        grid-template-rows: 150px 50px auto 50px;
+    }
+    .nav_menu{
+        flex-direction: row;
+    }
+    .button_nav{
+        padding: 0;
+    }
+    .splash{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: auto;
+    }
+}
