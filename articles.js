@@ -140,4 +140,19 @@ let articles = [
         ],
         content: '',
     },
+    {
+        title: 'Game_UI',
+        date: '11-03-18',
+        images: [
+            {
+                src: 'resources/lorem_start_512.png',
+                alt: 'wireframe',
+            },
+            {
+                src: 'resources/lorem_level_512.png',
+                alt: 'wireframe',
+            },
+        ],
+        content: '',
+    },
 ];
