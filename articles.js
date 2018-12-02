@@ -134,7 +134,11 @@ let articles = [
         date: '11-03-18',
         images: [
             {
-                src: 'resources/wireframe.png',
+                src: 'resources/character_design_512.png',
+                alt: 'wireframe',
+            },
+            {
+                src: 'resources/character_test_monsters_512.png',
                 alt: 'wireframe',
             },
         ],
