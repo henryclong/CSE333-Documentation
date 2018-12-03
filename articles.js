@@ -88,6 +88,16 @@ let articles = [
         content: 'My target client, Stony Brook Cat Network, just revitalized its old Instagram page. In order to prompt site visitors to seek out the Instagram page, it was made the subject of this animated splash screen. Created with Google Web Designer.',
     },
     {
+        title: 'Infographic',
+        date: '10-28-18',
+        images: [
+            {
+                src: 'resources/catnet_infographic.png',
+                alt: 'infographic',
+            }
+        ],
+    },
+    {
         title: 'Wireframe',
         date: '11-03-18',
         images: [
