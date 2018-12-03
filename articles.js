@@ -96,6 +96,7 @@ let articles = [
                 alt: 'infographic',
             }
         ],
+        content: '',
     },
     {
         title: 'Wireframe',
